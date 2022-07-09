@@ -1,0 +1,14 @@
+Abrir o porta-malas do veículo
+Retirar o estepe, o macacao e a chave de rodas
+Afrouxar os parafusos da roda
+Colocar o macaco debaiso do veículo
+Levantar o veículo com o macaco
+Retirar os parafusos da roda
+Retirar a roda
+Colocar o estepe no lugar da roda retirada
+Colocar os parafusos na roda
+Apertar os parafusos da roda
+Abaixar o carro com o macaco
+Apertar novamente os parafusos
+Guardar a roda removida no porta-malas, assim como o macaco e a chave de rodas.
+Fechar o porta malas

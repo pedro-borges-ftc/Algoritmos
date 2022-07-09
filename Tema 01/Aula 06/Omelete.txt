@@ -1,0 +1,10 @@
+1 – Pegar os ovos
+2 – Pegar a frigideira
+3 – Pegar óleo ou manteiga
+4 – Acender o fogo
+5 – Colocar óleo ou manteiga na frigideira
+6 – Quebrar os ovos
+7 – Por o conteúdo dos ovos na frigideira
+8 – Mexer os ovos
+9 – Apagar o fogo
+10 – Retirar a omelete da frigideira

@@ -1,0 +1,22 @@
+programa {
+	funcao inicio() {
+	    real base
+	    real altura
+	    real area = 0
+
+		// Seção de Comandos, procedimento, funções, operadores, etc... 
+        escreva("|||||||||||||||||||||||||||||||||||||||||||\n")
+        escreva("|   Vamos calcular área de um triângulo   |\n")
+        escreva("|||||||||||||||||||||||||||||||||||||||||||\n")
+        escreva("Informe o valor da base: ")
+        leia(base)
+        escreva("Informe o valor da altura:")
+        leia(altura)
+        
+        //realização do cálculo para encontrar área;
+        //o resultado da fórmula sera atribuido na variável area;
+        area = (base*altura)/2
+        
+        escreva("O triângulo com base ", base, " e altura ", altura, " tem área igual a ", area)
+    }
+}
