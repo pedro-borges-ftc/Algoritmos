@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Dados</title>
+
+    <style>
+        body{
+            font: normal 20pt arial;
+        }
+        h3{
+          color: red;  
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Tratamento de Dados - String</h3>
+
+    <script>
+        var frase = window.prompt("Digite uma frase: ")
+
+        var quantidade = frase.length
+        var maiuscula = frase.toUpperCase()
+        var minuscula = frase.toLowerCase()
+        var fraseComI = frase.replace(/a/gi,'i')
+
+        document.writeln(`<p> A frase original é: ${frase}. </p>`)
+
+        document.writeln(`<p> A frase contém ${quantidade} de caracteres. </p>`)
+
+        document.writeln(`<p> Frase maiúscula:  ${maiuscula}. </p>`)
+
+        document.writeln(`<p> Frase minúscula:  ${minuscula}. </p>`)
+
+        document.writeln(`<p> Frase com I(s):  ${fraseComI}. </p>`)
+    </script>
+</body>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variáveis em JS</title>
+    <title>Tipos de Dados em JS</title>
 
     <style>
         body{
@@ -21,16 +21,18 @@
     </style>
 </head>
 <body>
-    <!--esse é um comentário em HTML
-    pode ter várias linhas-->
-    <h1>Variáveis</h1>
+    <h1>Tipos de Dados</h1>
     <p>Esse é um exemplo de utilização de variáveis.</p>
 
     <script>
-        /* esse script pede para o usuário digitar o nome e exibe
-        o resultado no body do html */
         var nome = window.prompt('Digite seu nome:')
         document.writeln("<p>Nome: " + nome + "</p>")
+
+        var idade = window.prompt('Digite sua idade:')
+        document.writeln("<p>Idade: " + idade + "</p>")
+
+        var salario = window.prompt('Digite seu salário:')
+        document.writeln("<p>Salário: " + salario + "</p>")
     </script>
 </body>
 </html>
