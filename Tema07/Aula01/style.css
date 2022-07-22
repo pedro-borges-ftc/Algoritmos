@@ -115,6 +115,11 @@ ul li input{
 }
 
 .button{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 6px;
     color: var(--text-color);
     background-color: green;
     transition: background 400ms;
