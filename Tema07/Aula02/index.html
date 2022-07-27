@@ -32,7 +32,7 @@
             </li>
             <li>
                 <!-- <input type="button" value="Somar" onclick="somar()" class="button"> -->
-                <button onclick="somar()" class="button"> ola mundo </button>
+                <button onclick="somar()" class="button"> Somar </button>
             </li>
             <li>
                 <h5>Resultado</h5>
@@ -47,6 +47,7 @@
 
     <script>
         function somar(){
+            //Leitura dos valores digitados
             var tn1 = window.document.getElementById('txtnum1')
             var tn2 = window.document.getElementById('txtnum2')
 
@@ -55,7 +56,7 @@
             var soma = num1 + num2
 
             var txttotal = window.document.getElementById('txttotal')
-            txttotal.value = soma
+            txttotal.value = soma   //Atribuição do resultado
         }
     </script>
 </body>
