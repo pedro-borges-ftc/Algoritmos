@@ -1,0 +1,110 @@
+/*------Tags estruturais--------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /*variáveis*/
+    --bg-color: rgb(73, 71, 71);
+    --text-color: white;
+}
+
+body.white{
+    /*variáveis*/
+    --bg-color: white;
+    --text-color: rgb(73, 71, 71);
+    font-family: 'Roboto', sans-serif;
+}
+
+body.blue{
+    /*variáveis*/
+    --bg-color: rgb(43, 6, 154);
+    --text-color: rgb(242, 239, 239);
+    font-family: 'Roboto', sans-serif;
+}
+
+body.orange{
+    /*variáveis*/
+    --bg-color: rgb(204, 129, 8);
+    --text-color: rgb(242, 239, 239);
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    /*border: 5px red solid;    /*cor da borda da div*/
+    text-align: center;         /*alinhamento centralizado*/
+    width: 300px;               /*tamanho da div*/
+    margin: 10px auto;          /*centralizando a div no body*/
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    /*border: 5px red solid;*/
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+footer{
+    /*border: 5px red solid;*/
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.2;
+    transition: opacity 400ms;
+    margin-bottom: 24px;
+}
+
+footer:hover{
+    opacity: 1;
+}
+
+/*------Tags de conteúdo--------*/
+ul{
+    list-style: none;
+    margin: 36px 0;
+}
+
+input{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 16px;
+    color: var(--bg-color);
+    border-radius: 6px;
+}
+
+p{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    color: var(--text-color);
+    background-color: green;
+    transition: background 400ms;
+}
+
+button:hover{
+    background: rgb(179, 177, 177);
+}
+
+a{ 
+    text-decoration: none;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

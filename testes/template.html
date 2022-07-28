@@ -10,54 +10,47 @@
     <title>Soma Números</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="estilo.css">
+    <script src="scripts.js"></script>
+
 </head>
-<body class="dark">
-    <div class="container">
-        <!--<img 
-            src="https://chi01pap001files.storage.live.com/y4mLFg03C0hYj7ZfLm3hcEIcz5XFVAHAsrjdfyetaGtkSaDPElvYzR_o7j75bsYY17TLTYNNDoc_O1ydHV27gcfNtDkTHNopZEpCPEG-WNJvrs1OU_CEg0n5U8w7fS_ULnbF8qcdoiQ7XuawPyUWIrs-PCazyuZ1xsNiWkcnN__-_t3vNfE1kY50eIi8N7FEZYs8bCf9DHu9y18W4VFwF1HRmdqU0s6x9SllB0niCCnRqQ?encodeFailures=1&width=666&height=375" 
-            alt="Logomarca Farias e Borges Tecnologia"
-        >-->
-        <h1>Soma Números</h1>
+<body class="black">
+    <div>
+
+        <header>Soma Números</header>
+
         <h5>Digite os números a serem somados</h5>
+
         <ul>
             <li>
                 <input type="number" name="txtnum1" id="txtnum1" placeholder="digite o 1º número">
             </li>
+
             <li>
                 <p>+</p>
             </li>
+
             <li>
                 <input type="number" name="txtnum2" id="txtnum2" placeholder="digite o 2º número">
             </li>
+
             <li>
                 <!-- <input type="button" value="Somar" onclick="somar()" class="button"> -->
                 <button onclick="somar()" class="button"> Somar </button>
             </li>
+
             <li>
                 <h5>Resultado</h5>
                 <input type="text" name="txttotal" id="txttotal">
             </li>
         </ul>
+
         <footer>Desenvolvido em <br>
             <a href="https://github.com/pedro-borges-ftc/Algoritmos"
             > Algoritmos e Linguagem de Programação</a>
         </footer>
+
     </div>
 
-    <script>
-        function somar(){
-            //Leitura dos valores digitados
-            var tn1 = window.document.getElementById('txtnum1')
-            var tn2 = window.document.getElementById('txtnum2')
-
-            var num1 = Number(tn1.value)
-            var num2 = Number(tn2.value)
-            var soma = num1 + num2
-
-            var txttotal = window.document.getElementById('txttotal')
-            txttotal.value = soma   //Atribuição do resultado
-        }
-    </script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+input {
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 150px;
+    border: 1px solid blue;
+}
+
+button {
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+div {
+    border: 3px solid red;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    border: 1px solid blue;
+}
