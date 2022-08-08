@@ -21,6 +21,16 @@ body.blue{
     --text-color: rgb(242,239,239);
 }
 
+body.purple{
+    --bg-color: rgb(84, 46, 199) ;
+    --text-color: rgb(242,239,239);
+}
+
+body.red{
+    --bg-color: rgb(168, 67, 78) ;
+    --text-color: rgb(242,239,239);
+}
+
 body.orange{
     --bg-color: rgb(204, 129, 8) ;
     --text-color: rgb(242,239,239);
@@ -40,7 +50,10 @@ div{
 header{
     margin-top: 24px;
     margin-bottom: 8px;
-    font-size: 32px;
+    font-size: 24px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 6px;
 }
 
 footer{
@@ -65,8 +78,9 @@ input{
     width: 200px;
     align-items: center;
     margin-bottom: 16px;
-    color: var(--text-color);
+    color: rgb(73,71,71);
     border-radius: 6px;
+    text-align: center;
 }
 
 p{

@@ -10,19 +10,19 @@
     <title>Soma Números</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="template.css">
+    <script src="template.js"></script>
 
 </head>
 <body class="black">
     <div>
 
-        <header>Soma Números</header>
+        <header>Calcular Idade</header>
 
-        <h5>Digite os números a serem somados</h5>
+        <h5>Digite os dados solicitados</h5>
 
         <ul>
-            <li>
+            <!-- <li>
                 <input type="number" name="txtnum1" id="txtnum1" placeholder="digite o 1º número">
             </li>
 
@@ -32,16 +32,21 @@
 
             <li>
                 <input type="number" name="txtnum2" id="txtnum2" placeholder="digite o 2º número">
+            </li> -->
+
+            <li>
+                <h5>Data de Nascimento</h5>
+                <input type="date" name="txtdata" id="txtdata">
             </li>
 
             <li>
                 <!-- <input type="button" value="Somar" onclick="somar()" class="button"> -->
-                <button onclick="somar()" class="button"> Somar </button>
+                <button onclick="calcularidade()" class="button"> Calcular </button>
             </li>
 
             <li>
                 <h5>Resultado</h5>
-                <input type="text" name="txttotal" id="txttotal">
+                <input type="text" name="txtresultado" id="txtresultado">
             </li>
         </ul>
 
