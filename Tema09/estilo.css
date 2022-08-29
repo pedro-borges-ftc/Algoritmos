@@ -44,12 +44,12 @@ body{
 div{
     text-align: center;
     width: 300px;
-    margin: 10px auto;
+    margin: 6px auto;
 }
 
 header{
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     font-size: 24px;
     background-color: var(--text-color);
     color: var(--bg-color);
@@ -57,7 +57,7 @@ header{
 }
 
 footer{
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     font-size: 12px;
     opacity: 0.4;
     transition: opacity 400ms;
@@ -70,23 +70,23 @@ footer:hover{
 /*------Tags de conteúdo--------*/
 ul{
     list-style: none;
-    margin: 36px 0;
+    margin: 20px 0;
 }
 
 input{
     height: 40px;
     width: 200px;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     color: rgb(73,71,71);
     border-radius: 6px;
     text-align: center;
 }
 
 p{
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0.8;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     color: var(--text-color);
 }
 
@@ -94,7 +94,7 @@ button{
     height: 40px;
     width: 200px;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     border-radius: 6px;
     color: white;
     background-color: green;
