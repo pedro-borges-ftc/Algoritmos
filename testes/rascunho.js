@@ -1,6 +1,5 @@
-if(expressao_booleana){
-    //bloco executado caso a expressão seja verdadeira
-}
-else{
-    //bloco executado caso a expressão seja falsa
-}
+var i = 1
+do{
+    console.log(i)
+    i++
+}while(i <= 20)
