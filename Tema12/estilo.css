@@ -41,3 +41,26 @@ a{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+
+button{
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    margin-top: 6px;
+    border-radius: 6px;
+    color: white;
+    background-color: gray;
+    transition: background 400ms;
+}
+
+button:hover{
+    background: rgb(179, 177, 177);
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    text-align: center;
+}
