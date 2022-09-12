@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Array</title>
+</head>
+<body>
+    <h1>Aula 02 - Array</h1>
+    <script>
+        var valores = new Array(10)
+        for(i = 0; i<3; i++){
+            let indice = Number(window.prompt(`Digite o índice ${i+1}`))
+            let nota = Number(window.prompt(`Digite a nota ${i+1}`))
+
+            valores[indice] = nota
+        }
+        document.writeln(`<p> Array [] = ${valores}</p>`)
+        console.log(`Array [] = ${valores}</p>`)
+    </script>
+</body>
+</html>
