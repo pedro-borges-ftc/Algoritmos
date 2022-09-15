@@ -36,6 +36,17 @@ function calculadoraImpostos(){
     txtimposto.value =  imposto.toFixed(2).replace('.', ',')
     txttotalproduto.value = totalproduto.toFixed(2).replace('.', ',')
 }
+function validaValorProduto(){
+    var txtproduto = window.document.getElementById("txtproduto")
+    if(Number(txtproduto.value) <= 0){
+        txtproduto.style.background = "yellow"
+        alert('Valor do produto é obrigatório.')
+        return false
+    }else{
+        txtproduto.style.background = "white"
+        return true
+    }
+}
 
 //Tema 08 - Aula 03
 function conversorTemperaturas(){

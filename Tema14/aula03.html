@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de 3 números</title>
+</head>
+<body>
+    <script>
+        var x = Number(prompt("Digite o 1º número: "))
+        var y = Number(prompt("Digite o 2º número: "))
+        var z = Number(prompt("Digite o 3º número: "))
+
+        media(x,y,z)
+
+        function media(num1, num2, num3){
+            var media = (num1 + num2 + num3) / 3
+            document.writeln('<p> A média dos números é : ' + media + '</p>')
+        }
+    </script>
+</body>
+</html>
