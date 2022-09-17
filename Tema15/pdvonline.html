@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV On-line</title>
+    <link rel="stylesheet" href="estilopdv.css">
+</head>
+
+<body onload="montaPagina()">
+    <header>
+        <h1>PDV On-line</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Produto<br>
+                <select id="cbProduto" onchange="selecionaProduto()">
+                    <option value="">Escolha</option>
+                </select>
+                <input type="number" id="txtvalorunitario" readonly>
+            </p>
+            <p>
+                Quantidade<br><input type="number" id="txtquantproduto" onchange="validaQuant()">
+            </p>
+            <p>
+                Valor total R$<br><input type="number" id="txtvalorproduto" readonly>
+                <button onclick="adicionarProduto()">Adicionar Produto</button>
+            </p>
+            <hr>
+        </div>
+        <div>
+            LISTAGEM DE PRODUTOS
+            <table id="tableprodutos" border="1">
+                <tr>
+                    <td>Item</td>
+                    <td>Qtd.</td>
+                    <td>Unit.</td>
+                    <td>Total</td>
+                </tr>
+            </table>
+            <p>
+                Total da Compra R$<br><input type="number" id="txttotalcompra" readonly>
+            </p>
+            <hr>
+        </div>
+        <div>
+            Dinheiro R$<br><input type="number" id="txtdinheiro" onchange="validaTroco()"">
+            <button onclick="caltularTroco()">Calcular Troco</button>
+
+            <p>
+                Troco R$<br><input type="text" id="txttroco" readonly>
+            </p>
+        </div>
+    </section>
+    <footer>
+        Desenvolvido em <br>
+        <a href="https://github.com/pedro-borges-ftc/Algoritmos">Algoritmos e Linguagem de Programação</a>
+    </footer>
+    <script src="scriptpdv.js"></script>
+</body>
+
+</html>
