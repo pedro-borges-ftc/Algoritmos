@@ -1,4 +1,4 @@
-//Tema 08 - Aula 05
+//Tema 14
 function calculadoraJurosSimples(){
     //leitura dos dados do HTML
     var txtvalorinicial = window.document.getElementById("txtvalorinicial")
