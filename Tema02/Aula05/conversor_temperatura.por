@@ -2,11 +2,11 @@ programa {
 	funcao inicio() {
 	    real celsius, farenheit
 	    
-	    escreva("digite o valor da temperatura em Celcius: Cº ")
+	    escreva("digite o valor da temperatura em Celcius: CÂº ")
 	    leia(celsius)
 	    
 	    farenheit = ( celsius * 9 / 5 ) + 32
 	    
-	    escreva("a temperatura convertida para farenheit = Fº ", farenheit)
+	    escreva("a temperatura convertida para farenheit = FÂº ", farenheit)
 	}
 }
