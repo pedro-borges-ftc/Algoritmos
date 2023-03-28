@@ -1,4 +1,6 @@
 programa {
+  inclua biblioteca Matematica --> mat  // Inclui a biblioteca Matem√°tica
+
 	funcao inicio() {
 		inteiro x, y
 		escreva("Digite o primeiro valor: ")
@@ -6,10 +8,10 @@ programa {
 		escreva("Digite o segundo valor: ")
 		leia(y)
 		escreva("\na soma de " , x, " + " , y, " = ", x+y)
-		escreva("\na subtraÁ„o de " , x, " - " , y, " = ", x-y)
-		escreva("\na multiplicaÁ„o de " , x, " x " , y, " = ", x*y)
-		escreva("\na divis„o de " , x, " / " , y, " = ", x/y)
-		escreva("\na exponenciaÁ„o de " , x, " ^ " , y, " = ", x^y)
-		escreva("\no resto da divis„o de " , x, " % " , y, " = ", x%y)
+		escreva("\na subtra√ß√£o de " , x, " - " , y, " = ", x-y)
+		escreva("\na multiplica√ß√£o de " , x, " x " , y, " = ", x*y)
+		escreva("\na divis√£o de " , x, " / " , y, " = ", x/y)
+		escreva("\na exponencia√ß√£o de " , x, " ^ " , y, " = ", mat.potencia(x,y))
+		escreva("\no resto da divis√£o de " , x, " % " , y, " = ", x%y)
 	}
 }
