@@ -1,2 +1,2 @@
 const meuCabecalho = document.querySelector('h1');
-meuCabecalho.textContent = 'Olá mundo em JS!';
+meuCabecalho.textContent = 'Olá mundo em Java Script!';
