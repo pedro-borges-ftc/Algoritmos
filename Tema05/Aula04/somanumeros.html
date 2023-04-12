@@ -12,6 +12,7 @@
         }
         h1{
           color: blue;  
+          font: normal 16pt arial;
         }
     </style>
 </head>
@@ -19,11 +20,16 @@
     <h1>Programa que Soma dois números</h1>
 
     <script>
+        //Entrada de dados
         var num1 = Number(window.prompt('Digite o primeiro número:'))
         let num2 = Number(window.prompt('Digite o segundo número:'))
 
-        var soma = num1 + num2
-        document.writeln("<p>A soma dos números é: " + soma + "</p>")
+        //processamento
+        let soma = num1 + num2
+        
+        //Saída dos dados
+        document.writeln("<p>A soma dos números é: " + soma.toFixed(2) + "</p>")
+        //window.alert("<p>A soma dos números é: " + soma + "</p>")
     </script>
 </body>
 </html>
