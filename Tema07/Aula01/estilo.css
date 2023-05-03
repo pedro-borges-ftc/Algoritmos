@@ -16,12 +16,7 @@ button {
 }
 
 div {
-    border: 3px solid red;
-    background-color: aquamarine;
+    border: 1px solid rgb(247, 118, 4);
+    background-color: rgb(188, 219, 209);
     text-align: center;
-}
-
-h4 {
-    text-align: center;
-    border: 1px solid blue;
 }

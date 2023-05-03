@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário v4</title>
     
+    <!--CSS Externo -->
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!--JavaScript Externo -->
     <script src="scripts.js"></script>
+    <script src="calculaIdade.js"></script>
+
 </head>
 <body>
     <header>
@@ -16,12 +22,14 @@
 
     <div>
         Nome<br>
-        <input type="text" name="campo1" id="campo1"><br>
+        <input type="text" name="campo1" id="nome"><br>
         
         Data Nascimento<br>
-        <input type="date" name="campo2" id="campo2"><br>
+        <input type="date" name="campo2" id="dataNascimento"><br>
         
         <p><button onclick="imprimir()"> Imprimir </button></p>
+        
+        <p><button onclick="calculaIdade()"> Idade </button></p>
         
         Resultado<br>
         <textarea name="resultado" id="resultado" cols="20" rows="5"></textarea>
