@@ -7,6 +7,6 @@ programa {
 		
 		dolares = reais / 5.3
 		
-		escreva("A conversão de ", reais, " reais para dólares é ", dolares)
+		escreva("A conversÃ£o de ", reais, " reais para dÃ³lares Ã© ", dolares)
 	}
 }
