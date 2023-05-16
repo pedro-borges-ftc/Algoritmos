@@ -35,15 +35,15 @@ function calculadoraIMC() {
     var peso = Number(window.document.getElementById("txtpeso").value)
     var altura = Number(window.document.getElementById("txtaltura").value)
     var txtresultado = window.document.getElementById("txtresultado")
-    var resultado = ""
+    var resultado = ''
 
     //Processamento dos dados
     var imc = peso / (altura * altura)
 
-    if (imc >= 18.2 && imc <= 25) {
-        resultado = `IMC = ${imc}. Está no peso ideal`
+    if (imc >= 18.5 && imc <= 25) {
+        resultado = `Sim. IMC = ${imc.toFixed(2)}.`
     } else {
-        resultado = `IMC = ${imc}. Não está no peso ideal`
+        resultado = `Não. IMC = ${imc.toFixed(2)}.`
     }
 
     //escrita do resultado no DOM do HTML
@@ -53,19 +53,20 @@ function calculadoraIMC() {
 //Tema 09 - Aula 02
 function testadorTriangulos() {
     //leitura dos dados do HTML
-    var txtvalor_l1 = Number(window.document.getElementById("txtvalor_l1"))
-    var txtvalor_l2 = Number(window.document.getElementById("txtvalor_l2"))
-    var txtvalor_l3 = Number(window.document.getElementById("txtvalor_l3"))
+    var txtvalor_l1 = Number(window.document.getElementById("txtvalor_l1").value)
+    var txtvalor_l2 = Number(window.document.getElementById("txtvalor_l2").value)
+    var txtvalor_l3 = Number(window.document.getElementById("txtvalor_l3").value)
     var txtequilatero = window.document.getElementById("txtequilatero")
     var txtescaleno = window.document.getElementById("txtescaleno")
 
+    //txtequilatero.value = (txtvalor_l1 + txtvalor_l2 + txtvalor_l3)
     //Processamento dos dados
-    var eh_equilatero = txtvalor_l1.value == txtvalor_l2.value &&
-        txtvalor_l2.value == txtvalor_l3.value
+    var eh_equilatero = txtvalor_l1 == txtvalor_l2 && 
+                        txtvalor_l2 == txtvalor_l3
 
-    var eh_escaleno = txtvalor_l1.value != txtvalor_l2.value &&
-        txtvalor_l2.value != txtvalor_l3.value &&
-        txtvalor_l1.value != txtvalor_l3.value
+    var eh_escaleno = txtvalor_l1 != txtvalor_l2 && 
+                        txtvalor_l2 != txtvalor_l3 && 
+                        txtvalor_l1 != txtvalor_l3
 
     //escrita do resultado no DOM do HTML
     txtequilatero.value = eh_equilatero
