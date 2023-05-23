@@ -1,4 +1,4 @@
-var valorDivida = 1000
+var valorDivida = 3000
 var valorParcelamento = valorDivida
 var valorParcela = valorDivida
 var quantidadeParcela = 0

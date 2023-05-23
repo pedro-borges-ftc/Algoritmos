@@ -1,4 +1,4 @@
-var n_esimo_termo = 15
+var n_esimo_termo = 23
 var antecessor = 1
 var atual = 1
 

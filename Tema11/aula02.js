@@ -2,7 +2,7 @@
 var numero = 1
 var contador = 1
 while(numero <= 10){
-    console.log(`----Tabuada do ${numero}----`)
+    console.log(`----Tabuada de Multiplicação do ${numero}----`)
     while(contador <= 10){    
         console.log(`${numero} x ${contador} = ${numero * contador}`)
         contador++
