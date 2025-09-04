@@ -20,3 +20,9 @@ div {
     background-color: rgb(188, 219, 209);
     text-align: center;
 }
+
+h4 {
+    text-align: center;
+    border: 4px solid rgb(8, 235, 164);
+    border-radius: 10px;
+}
