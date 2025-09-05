@@ -1,0 +1,62 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container central */
+.container {
+  background: #1e1e1e;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 150, 0.5);
+  width: 350px;
+  text-align: center;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+input {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+button {
+  background: #00ff96;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00cc77;
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ff96;
+}
