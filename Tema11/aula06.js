@@ -1,5 +1,5 @@
-var n_esimo_termo = 23
-var antecessor = 1
+var n_esimo_termo = 80
+var antecessor = 0
 var atual = 1
 
 resultado = antecessor + ", " + atual
